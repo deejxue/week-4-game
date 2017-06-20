@@ -1,0 +1,104 @@
+/* General Elements*/
+body{
+	background-image: url("../images/background.png")
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 50%;
+}
+div{
+	border: solid 5px green;
+	width: 50%;
+	padding: 20px;
+}
+h1 {
+	font-size: 20pt;
+	font-weight: 900;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+}
+span{
+	font-size: 30pt;
+	font-weight: 900;
+	text-align: center;
+	vertical-align: middle;
+}
+h3 {
+	font-size: 15pt;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+h2 {
+	font-size: 15pt;
+}
+ol{
+	font color: #40bf40;
+	list-style: decimal inside; 
+}
+p {
+	color: #004d00;
+	font-size: 13pt;
+	font-weight: 900;
+}
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color: #e0e0eb;
+	width: 45%;
+}
+div.header {
+	width: 50%;
+	background-color: #996633;
+}
+div.instructions {
+	width: 50%;
+	background-color: #ffcccc;
+}
+/* Classes */
+.numberToMatch {
+	float: left;
+	width: 21%;
+	height: 90px;
+	background-color: #40bf40;
+}
+.winsAndLosses{
+	float: left;
+	width: 21%;
+	height: 90px;
+	background-color: #33ffff;
+}
+.userTotal{
+	width: 22%;
+	height: 10px;
+	background-color: #2eb8b8;
+	
+}
+.userTotal2{
+	font-color: white;
+	width: 22%;
+	height: 60px;
+	background-color: #2eb8b8;
+	
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 100px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
